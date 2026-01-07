@@ -24,12 +24,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className='py-2 md:w-11/12 mx-auto'>
-          <Navbar></Navbar>
+        <header className="bg-base-100 mx-auto">
+          <div className="py-2 md:w-11/12 mx-auto">
+            <Navbar></Navbar>
+          </div>
         </header>
-        <main  className='py-2 md:w-11/12 mx-auto'>{children}</main>
-        <footer  className='py-2 md:w-11/12 mx-auto'>
-          <Footer></Footer>
+        <main className="py-2 md:w-11/12 mx-auto">{children}</main>
+        <footer className="bg-base-100 mx-auto">
+          <div className="py-2 md:w-11/12 mx-auto">
+            <Footer></Footer>
+          </div>
         </footer>
       </body>
     </html>
