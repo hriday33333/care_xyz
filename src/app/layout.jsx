@@ -1,5 +1,3 @@
-import Footer from '@/Components/layouts/Footer';
-import Navbar from '@/Components/layouts/Navbar';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
@@ -24,17 +22,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="bg-base-100 mx-auto">
-          <div className="py-2 md:w-11/12 mx-auto">
-            <Navbar></Navbar>
-          </div>
-        </header>
-        <main className="py-2 md:w-11/12 mx-auto">{children}</main>
-        <footer className="bg-base-100 mx-auto">
-          <div className="py-2 md:w-11/12 mx-auto">
-            <Footer></Footer>
-          </div>
-        </footer>
+        
+        {children}
+
       </body>
     </html>
   );
