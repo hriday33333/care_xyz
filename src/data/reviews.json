@@ -1,0 +1,98 @@
+[
+  {
+    "id": "5f47ac10b4f1c03e8c123456",
+    "user_email": "john.doe@example.com",
+    "userName": "John Doe",
+    "delivery_email": "caregiver1@care.xyz",
+    "ratings": 4.8,
+    "review": "The babysitter was very caring and professional. My child felt safe and happy.",
+    "parcel_id": "baby-care-001",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/men/10.jpg",
+    "date": "2024-05-08T14:30:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c234567",
+    "user_email": "jane.smith@example.com",
+    "userName": "Jane Smith",
+    "delivery_email": "caregiver2@care.xyz",
+    "ratings": 4.2,
+    "review": "Elderly care service was reliable and respectful. My parents were very satisfied.",
+    "parcel_id": "elderly-care-002",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/women/25.jpg",
+    "date": "2024-06-10T10:15:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c345678",
+    "user_email": "alex.brown@example.com",
+    "userName": "Alex Brown",
+    "delivery_email": "caregiver3@care.xyz",
+    "ratings": 5.0,
+    "review": "Excellent service! The caregiver was punctual, kind, and very professional.",
+    "parcel_id": "sick-care-003",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/men/34.jpg",
+    "date": "2024-07-01T08:50:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c456789",
+    "user_email": "lisa.white@example.com",
+    "userName": "Lisa White",
+    "delivery_email": "caregiver4@care.xyz",
+    "ratings": 4.5,
+    "review": "Very responsive and trustworthy home care service. Highly recommended.",
+    "parcel_id": "elderly-care-004",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/women/12.jpg",
+    "date": "2024-07-15T09:10:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c567890",
+    "user_email": "david.lee@example.com",
+    "userName": "David Lee",
+    "delivery_email": "caregiver5@care.xyz",
+    "ratings": 3.9,
+    "review": "Care service was good, but caregiver arrived slightly late.",
+    "parcel_id": "baby-care-005",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/men/19.jpg",
+    "date": "2024-08-02T16:45:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c678901",
+    "user_email": "nina.khan@example.com",
+    "userName": "Nina Khan",
+    "delivery_email": "caregiver6@care.xyz",
+    "ratings": 4.9,
+    "review": "Outstanding experience! The caregiver treated my mother like family.",
+    "parcel_id": "elderly-care-006",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/women/8.jpg",
+    "date": "2024-08-10T12:00:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c789012",
+    "user_email": "michael.jordan@example.com",
+    "userName": "Michael Jordan",
+    "delivery_email": "caregiver7@care.xyz",
+    "ratings": 3.7,
+    "review": "Overall good service, but communication could be improved.",
+    "parcel_id": "sick-care-007",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/men/22.jpg",
+    "date": "2024-08-14T18:20:00.000Z"
+  },
+  {
+    "id": "5f47ac10b4f1c03e8c890123",
+    "user_email": "emma.watson@example.com",
+    "userName": "Emma Watson",
+    "delivery_email": "caregiver8@care.xyz",
+    "ratings": 4.7,
+    "review": "Safe, friendly, and professional caregiving service. Very satisfied!",
+    "parcel_id": "baby-care-008",
+    "pick_up_email": "support@care.xyz",
+    "user_photoURL": "https://randomuser.me/api/portraits/women/5.jpg",
+    "date": "2024-08-20T07:30:00.000Z"
+  }
+]
