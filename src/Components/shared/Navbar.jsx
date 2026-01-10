@@ -17,10 +17,11 @@ const Navbar = () => {
       <li>
         <Link href={'/aboutUs'}>About Us</Link>
       </li>
+
     </>
   );
   return (
-    <div className='bg-purple-500'>
+    <div className='shadow-xl fixed glass top-0 left-0 w-full z-50'>
       <Container>
         <div className="navbar  ">
           <div className="navbar-start">
@@ -28,7 +29,7 @@ const Navbar = () => {
               <div tabIndex={0} role="button" className=" btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-base-100"
+                  className="h-5 w-5 text-black"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -44,7 +45,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex="-1"
-                className="menu menu-sm dropdown-content bg-gradient-to-r from-[#101828] to-[#262626] text-base-100 font-semibold text-[18px] rounded-box  z-1 mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content  text-[#393D72] font-semibold  font-semibold text-[18px] rounded-box glass z-1 mt-3 w-52 p-2 shadow"
               >
                 {links}
               </ul>
@@ -52,18 +53,26 @@ const Navbar = () => {
             <Logo></Logo>
           </div>
           <div className="navbar-center  font-semibold text-[18px] hidden lg:flex">
-            <ul className="menu menu-horizontal px-1  text-base-100">
+            <ul className="menu menu-horizontal px-1 font-semibold  text-[#393D72]">
               {links}
             </ul>
           </div>
-          <div className="navbar-end">
+          <div className="navbar-end gap-2">
             <Link
               href={'/login'}
               className="bg-gradient-to-r from-[#801617] to-[#FF1532]
-hover:from-[#FF1532] hover:to-[#801617]
-text-white btn rounded-lg transition-all duration-300"
+hover:from-[#FF1532] px-4.5 h-8 hover:to-[#801617]
+text-white btn  transition-all duration-300"
             >
               Login
+            </Link>
+            <Link
+              href={'/login'}
+              className="bg-gradient-to-r from-[#801617] to-[#FF1532]
+hover:from-[#FF1532] px-3 h-8 hover:to-[#801617]
+text-white btn  transition-all duration-300"
+            >
+              Register
             </Link>
           </div>
         </div>

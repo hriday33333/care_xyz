@@ -1,11 +1,14 @@
-import Image from "next/image";
+import Container from '@/Components/shared/Container';
+import Hero from '@/Components/shared/Hero';
+import HowItWorks from '@/Components/shared/HowItWorks';
+import ServicesSection from '@/Components/shared/ServicesSection';
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center ">
-      <button className="bg-gradient-to-r from-[#801617] to-[#FF1532]
-hover:from-[#FF1532] hover:to-[#801617]
-text-white btn rounded-lg transition-all duration-300">click me</button>
-    </div>
+    <Container>
+      <Hero></Hero>
+      <ServicesSection></ServicesSection>
+      <HowItWorks></HowItWorks>
+    </Container>
   );
 }

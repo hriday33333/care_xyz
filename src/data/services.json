@@ -1,26 +1,48 @@
-[
-  {
-    "title": "Professional Baby Sitting Service",
-    "description": "Trained and trusted babysitters provide safe and caring support for your children at home for hourly or daily duration."
-  },
-  {
-    "title": "Elderly Care Service",
-    "description": "Reliable elderly care with daily assistance, companionship, medication reminders, and personal care at home."
-  },
-  {
-    "title": "Special Care for Sick Persons",
-    "description": "Dedicated caregivers for sick or recovering patients, ensuring proper care, hygiene, and medical support at home."
-  },
-  {
-    "title": "Flexible Booking & Scheduling",
-    "description": "Book care services easily based on your preferred time, duration, and location with instant cost calculation."
-  },
-  {
-    "title": "Verified & Trusted Caregivers",
-    "description": "All caregivers are NID verified, trained, and background-checked to ensure maximum safety and trust."
-  },
-  {
-    "title": "Secure Home Care Service",
-    "description": "Safe and reliable in-home caregiving services with real-time booking tracking and support."
+{
+  "success": true,
+  "message": "Services retrieved successfully!",
+  "data": [
+    {
+      "_id": "care001",
+      "name": "Baby Care",
+      "description": "<p>আপনার শিশুর জন্য নিরাপদ এবং ভালোবাসাপূর্ণ যত্ন। আমাদের অভিজ্ঞ এবং ট্রেইন্ড বেবিসিটাররা বাড়িতে এসে শিশুর খাওয়া-দাওয়া, খেলাধুলা, ঘুম এবং সব ধরনের যত্ন নিবেন। আমরা শুধু যত্নই নই, শিশুর বিকাশেও সাহায্য করি।</p><p><strong>মূল সুবিধাসমূহ</strong>:</p><ul><li>অভিজ্ঞ এবং ভেরিফাইড কেয়ারগিভার</li><li>খাওয়ানো, গোসল, ঘুমানোর যত্ন</li><li>খেলাধুলা এবং শিক্ষামূলক অ্যাকটিভিটি</li><li>নিরাপত্তা এবং জরুরি সাপোর্ট</li><li>ঘন্টা বা দিনভিত্তিক সার্ভিস</li></ul>",
+      "price": 500,
+      "img": "https://images.agoramedia.com/wte3.0/gcms/choosing-childcare-2020-722x406.jpg",
+      "isFeatured": true,
+      "duration": 60,
+      "isDeleted": false,
+      "createdAt": "2026-01-09T10:00:00.000Z",
+      "updatedAt": "2026-01-09T10:00:00.000Z"
+    },
+    {
+      "_id": "care002",
+      "name": "Elderly Care",
+      "description": "<p>আপনার বাবা-মা বা বয়স্ক পরিবারের সদস্যদের জন্য সঙ্গী এবং বিশ্বস্ত যত্ন। আমাদের কেয়ারগিভাররা ঔষধ খাওয়ানো, হাঁটাহাঁটি, দৈনন্দিন কাজে সাহায্য, গল্পগুজব – সবকিছুতে পাশে থাকবেন। লক্ষ্য একটাই: তাদের একাকীত্ব দূর করা এবং সুস্থ রাখা।</p><p><strong>মূল সুবিধাসমূহ</strong>:</p><ul><li>ঔষধ খাওয়ানো এবং হেলথ মনিটরিং</li><li>দৈনন্দিন কাজে সাহায্য (গোসল, খাওয়া)</li><li>সঙ্গী এবং মানসিক সাপোর্ট</li><li>হাঁটাহাঁটি এবং লাইট এক্সারসাইজ</li><li>২৪/৭ জরুরি সাপোর্ট</li></ul>",
+      "price": 600,
+      "img": "https://www.homecareassistancedesmoines.com/wp-content/uploads/2017/09/Caregiver-Helping-to-Use-Laptop.jpg",
+      "isFeatured": true,
+      "duration": 120,
+      "isDeleted": false,
+      "createdAt": "2026-01-09T10:00:00.000Z",
+      "updatedAt": "2026-01-09T10:00:00.000Z"
+    },
+    {
+      "_id": "care003",
+      "name": "Sick People Care",
+      "description": "<p>অসুস্থ বা বিছানায় শায়িত রোগীর জন্য প্রফেশনাল নার্সিং সার্ভিস। আমাদের ট্রেইন্ড নার্স/কেয়ারগিভাররা ইঞ্জেকশন, ড্রেসিং, ঔষধ খাওয়ানো, ফিজিওথেরাপি সাহায্য – সবকিছু বাড়িতে প্রদান করবেন। হাসপাতালের মতো যত্ন, কিন্তু বাড়ির আরামে।</p><p><strong>মূল সুবিধাসমূহ</strong>:</p><ul><li>প্রফেশনাল নার্সিং কেয়ার</li><li>ইঞ্জেকশন, ড্রেসিং এবং ওয়ুন্ড কেয়ার</li><li>ঔষধ মনিটরিং এবং ভাইটাল চেক</li><li>ফিডিং এবং মুভমেন্ট সাহায্য</li><li>ডাক্তারের সাথে কো-অর্ডিনেশন</li></ul>",
+      "price": 800,
+      "img": "https://www.tlchomecare.com/wp-content/uploads/2019/08/Home-Care-stowe.jpg",
+      "isFeatured": true,
+      "duration": 180,
+      "isDeleted": false,
+      "createdAt": "2026-01-09T10:00:00.000Z",
+      "updatedAt": "2026-01-09T10:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "total": 3,
+    "page": 1,
+    "totalPage": 1,
+    "limit": 10
   }
-]
+}

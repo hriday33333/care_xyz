@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "care001",
+    "name": "Baby Care",
+    "category": "Home Care",
+    "shortDescription": "আপনার শিশুর জন্য নিরাপদ ও ভালোবাসাপূর্ণ হোম বেবি কেয়ার সার্ভিস।",
+    "description": "<p>আপনার শিশুর জন্য নিরাপদ এবং ভালোবাসাপূর্ণ যত্ন। আমাদের অভিজ্ঞ এবং ট্রেইন্ড বেবিসিটাররা বাড়িতে এসে শিশুর খাওয়া-দাওয়া, খেলাধুলা ও ঘুমের যত্ন নেন।</p>",
+    "price": 500,
+    "priceType": "hourly",
+    "duration": 60,
+    "img": "https://images.agoramedia.com/wte3.0/gcms/choosing-childcare-2020-722x406.jpg",
+    "tags": ["baby", "childcare", "homecare"],
+    "caregiver": {
+      "type": "Babysitter",
+      "experience": "3+ years",
+      "verified": true
+    },
+    "rating": {
+      "average": 4.8,
+      "totalReviews": 126
+    },
+    "serviceArea": ["Dhaka", "Chattogram"],
+    "bookingAvailable": true,
+    "emergencySupport": true,
+    "isFeatured": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "care002",
+    "name": "Elderly Care",
+    "category": "Home Care",
+    "shortDescription": "বয়স্ক বাবা-মায়ের জন্য স্নেহশীল ও বিশ্বস্ত হোম কেয়ার সার্ভিস।",
+    "description": "<p>বয়স্ক পরিবারের সদস্যদের জন্য ঔষধ খাওয়ানো, দৈনন্দিন কাজ ও মানসিক সাপোর্টসহ পূর্ণাঙ্গ যত্ন।</p>",
+    "price": 600,
+    "priceType": "hourly",
+    "duration": 120,
+    "img": "https://www.homecareassistancedesmoines.com/wp-content/uploads/2017/09/Caregiver-Helping-to-Use-Laptop.jpg",
+    "tags": ["elderly", "seniorcare", "homecare"],
+    "caregiver": {
+      "type": "Caregiver",
+      "experience": "5+ years",
+      "verified": true
+    },
+    "rating": {
+      "average": 4.7,
+      "totalReviews": 98
+    },
+    "serviceArea": ["Dhaka"],
+    "bookingAvailable": true,
+    "emergencySupport": true,
+    "isFeatured": true,
+    "isDeleted": false
+  },
+  {
+    "_id": "care003",
+    "name": "Sick People Care",
+    "category": "Medical Home Care",
+    "shortDescription": "অসুস্থ ও শয্যাশায়ী রোগীর জন্য প্রফেশনাল হোম নার্সিং সার্ভিস।",
+    "description": "<p>প্রশিক্ষিত নার্স দ্বারা ইঞ্জেকশন, ড্রেসিং, ভাইটাল চেক ও ডাক্তারের সাথে সমন্বয়।</p>",
+    "price": 800,
+    "priceType": "hourly",
+    "duration": 180,
+    "img": "https://www.tlchomecare.com/wp-content/uploads/2019/08/Home-Care-stowe.jpg",
+    "tags": ["nursing", "patientcare", "medical"],
+    "caregiver": {
+      "type": "Nurse",
+      "experience": "6+ years",
+      "verified": true
+    },
+    "rating": {
+      "average": 4.9,
+      "totalReviews": 142
+    },
+    "serviceArea": ["Dhaka", "Chattogram"],
+    "bookingAvailable": true,
+    "emergencySupport": true,
+    "isFeatured": true,
+    "isDeleted": false
+  }
+]

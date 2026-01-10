@@ -3,7 +3,7 @@ import Logo from './Logo';
 
 const DashboardSider = () => {
   return (
-    <div className="w-[200px] bg-purple-200 h-screen p-4 px-3 py-4 fixed top-0 left-0">
+    <div className="w-[200px] bg-purple-500 h-screen p-4 px-3 py-4 fixed top-0 left-0">
       <Link href={'/'}>
         <Logo></Logo>
       </Link>
